@@ -23,3 +23,6 @@ class SiteController {
     console.log?
   }
 }
+
+
+module.exports = SiteController;
