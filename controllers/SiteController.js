@@ -5,7 +5,7 @@ class SiteController {
 
 
 
-    SiteController.get('/', function(req,resp){    
+    SiteController.get('/', function(req,resp){
       resp.render('index')
     })
 
@@ -18,20 +18,8 @@ class SiteController {
       resp.render('contact')
     })
 
-
-
-
-
   }
   cccc() {
     console.log?
   }
 }
-//functions for express routes
-
-
-// app.get('/', function(req,resp){
-//   const welcomePhrase = 'Hello, World from Express and EJS!'
-// 
-//   resp.render('index', {'welcomePhrase': welcomePhrase})
-// })
